@@ -1,0 +1,15 @@
+/* Tailwind styles */
+@tailwind;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    transform: translateX(-6px) translateY(-6px);
+}
