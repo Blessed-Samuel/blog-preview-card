@@ -13,3 +13,44 @@
 .card {
     transform: translateX(-6px) translateY(-6px);
 }
+
+/* Main App animations */
+.app {
+    transition: all 0.5s;
+    animation: intro 1s 1s backwards;
+}
+
+@keyframes intro {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    33% {
+        opacity: 0.3;
+        transform: scale(1.4) translateX(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Card Banner animation */
+.app .card_banner {
+    transition: 0.5s;
+}
+
+.app .card_banner:hover {
+    transform: scale(1.07);
+}
+
+/* Header text animation */
+.header_1 {
+    transition: all 0.2s;
+}
+
+.header_1:hover {
+    transform: scale(1.05);
+}
